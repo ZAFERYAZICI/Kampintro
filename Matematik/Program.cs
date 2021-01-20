@@ -15,6 +15,10 @@ namespace Matematik
 
             dortIslem.Topla(123123, 213);
 
+            dortIslem.Carp(3, 2);
+
+            dortIslem.Bol(4, 2);
+
         }
     }
 }

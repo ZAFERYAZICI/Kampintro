@@ -18,7 +18,23 @@ namespace Matematik
         }
 
 
+        public void Carp(int sayi1,int sayi2)
+        {
 
+            int carpim = sayi1 * sayi2;
+
+            Console.WriteLine("İki Sayının Çarpımı : " + carpim);
+
+        }
+
+        public void Bol(int sayi1,int sayi2)
+        {
+            int bolme = sayi1 / sayi2;
+
+            Console.WriteLine("İki Sayının Bölümü  : " + bolme);
+
+
+        }
 
     }
 }
